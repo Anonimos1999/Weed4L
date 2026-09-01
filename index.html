@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="referrer" content="no-referrer">
+<meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; object-src 'none'; frame-src 'none'; form-action 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; media-src 'self'; connect-src 'none'; font-src 'self'; manifest-src 'none'; worker-src 'none'">
+<title>W4L Terps</title>
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+<div id="aurum-webhash">
+  <div class="aw-privacy-shield" aria-hidden="true">CONTENUTO RISERVATO</div>
+  <header class="aw-header">
+    <div class="aw-header-line" aria-hidden="true"></div>
+    <div class="aw-brand" id="aw-logo-slot"><img src="logo.png" alt="Logo" class="aw-logo" width="256" height="256" decoding="async" fetchpriority="high"></div>
+    <div class="aw-header-line" aria-hidden="true"></div>
+  </header>
+
+  <nav class="aw-nav" aria-label="Navigazione principale">
+    <div class="aw-nav-links">
+      <button class="aw-nav-link" type="button" data-page="vetrina" data-active="true" aria-current="page">Vetrina</button>
+      <button class="aw-nav-link" type="button" data-page="info">Info</button>
+      <button class="aw-nav-link" type="button" data-page="contatti">Contatti</button>
+    </div>
+  </nav>
+
+  <section class="aw-page" data-page="vetrina" data-active="true">
+    <div class="aw-grid" aria-label="Catalogo prodotti"></div>
+  </section>
+
+  <section class="aw-page" data-page="info">
+    <div class="aw-panel aw-work-progress">
+      <h2>Work In Progress</h2>
+    </div>
+  </section>
+
+  <section class="aw-page" data-page="contatti">
+    <div class="aw-panel">
+      <span class="aw-panel-kicker">Assistenza</span>
+      <h2>Contatti</h2>
+      <button class="aw-signal-contact" id="aw-signal-contact" type="button" aria-label="Apri il contatto Signal @QuincyPromes7.17">
+        <span class="aw-signal-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M20 11.5a8 8 0 0 1-11.9 7L4 20l1.5-4.1A8 8 0 1 1 20 11.5Z"/><path d="M8 10h8M8 13h5"/></svg>
+        </span>
+        <span class="aw-signal-copy"><small>Contatto Signal</small><strong>@QuincyPromes7.17</strong></span>
+        <span class="aw-signal-arrow" aria-hidden="true">↗</span>
+      </button>
+    </div>
+  </section>
+
+  <div class="aw-modal" aria-hidden="true">
+    <div class="aw-modal-backdrop"></div>
+    <div class="aw-modal-box" role="dialog" aria-modal="true" aria-labelledby="aw-modal-title">
+      <button class="aw-modal-close" type="button" aria-label="Chiudi">✕</button>
+      <span class="aw-modal-kicker">Richiesta informazioni</span>
+      <h2 id="aw-modal-title" class="aw-modal-title"></h2>
+      <div class="aw-modal-qty"></div>
+      <p class="aw-modal-help">Signal non consente al sito di inserire direttamente un testo nella chat. Copieremo un breve messaggio informativo: potrai incollarlo, modificarlo e inviarlo personalmente.</p>
+      <button class="aw-order" type="button" disabled>Seleziona un’opzione</button>
+    </div>
+  </div>
+
+</div>
+
+
+<script src="app.js" defer></script>
+</body>
+</html>

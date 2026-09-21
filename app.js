@@ -17,7 +17,7 @@
       `Ciao, vorrei ${String(qty.peso).toLowerCase()} ${cleanProductName(product.title)}`;
 
     const products = [
-      { video: 'media/p1.mp4', title: 'Crumble Americano 🇺🇸⭐⭐⭐⭐⭐', description: '1G 16\n5G 85\n10G 100\n+ QUANTITÀ IN PRIVATO', online: true, quanti: [{ peso: '1G', prezzo: '15' }, { peso: '5G', prezzo: '85' }, { peso: '10G', prezzo: '100' }] },
+      { video: 'media/p1.mp4', title: 'Crumble Americano 🇺🇸⭐⭐⭐⭐⭐', description: '1G 15\n5G 85\n10G 100\n+ QUANTITÀ IN PRIVATO', online: true, quanti: [{ peso: '1G', prezzo: '15' }, { peso: '5G', prezzo: '85' }, { peso: '10G', prezzo: '100' }] },
       { video: 'media/p2.mp4', title: 'Cali USA 🇺🇸⭐⭐⭐⭐', description: 'STRAIN: ZKITTLEZ\n70/30% • INDICA/SATIVA\n5G 40\n10G 70\n20G 140\nPER QUANTITÀ MAGGIORI: CONTATTO PRIVATO', online: true, quanti: [{ peso: '5G', prezzo: '40' }, { peso: '10G', prezzo: '70' }, { peso: '20G', prezzo: '140' }] },
       { video: 'media/p3.mp4', title: 'Dry Mountain Giants ⭐⭐⭐⭐⭐', description: 'QUANTITÀ LIMITATA\nPIÙ STRAIN DISPONIBILI\nBanana 🍌 & Pear 🍐\nLemon 🍋 • Cherry 🍒 • Gelato 🍦\nPermanent Marker 🖊️⛽️\n5G 35\n10G 60\n25G 140\n+ QUANTITÀ IN PRIVATO', online: true, quanti: [{ peso: '5G', prezzo: '35' }, { peso: '10G', prezzo: '60' }, { peso: '25G', prezzo: '140' }] },
       { video: 'media/p5.mp4', title: 'Frozen 90U Levelup 🍄', description: 'STRAIN: PERMANENT MARKER\n5G 40\n10G 75\n25G 210\n50G 400\n100G 700\n500G 3350\n1/2/5KG: PREZZO 💣\n+ QUANTITÀ IN PRIVATO 🔥🚀', online: true, quanti: [{ peso: '5G', prezzo: '40' }, { peso: '10G', prezzo: '75' }, { peso: '25G', prezzo: '210' }, { peso: '50G', prezzo: '400' }, { peso: '100G', prezzo: '700' }, { peso: '500G', prezzo: '3350' }] },

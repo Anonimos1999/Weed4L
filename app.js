@@ -3,7 +3,7 @@
     // video: usa un URL diretto a un file MP4/WebM, oppure un percorso come "videos/prodotto-1.mp4".
     // quanti: ogni voce è { peso, prezzo } mostrata come pulsante per l'ordine.
     // Link Signal fornito dal titolare del sito.
-    const SIGNAL_URL = 'https://signal.me/#eu/hPaoIkNDxZ6vsHL9C4Ct8DA43UkgO1NZgsOMi0t7bhjIFGf3ZEBB2IeG3tuFqxSI';
+    const SIGNAL_URL = 'https://signal.me/#eu/hPaoIkNDxZ6vsHL9C4Ct8DA43UkgO1NZgsOMi0t7bhjIFGf3ZEBB2IeG3tuF';
     const CONTACT_MESSAGE = 'Ciao, vorrei ricevere maggiori informazioni.';
 
     const cleanProductName = (title) => title
